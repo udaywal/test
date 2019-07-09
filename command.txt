@@ -27,3 +27,24 @@ git congig --global user.name "Vaibhav"
 
 // This command then push the code from local projects to linked repository
 >> git push -u origin master
+
+// For a new user
+// get clone the repository in a folder
+>> git clone <repo name>
+
+// if changes happens in repository files then use
+>> git pull origin master
+
+
+-------------------------------------------------------------------------------------------
+
+
+>> git branch // in which branch you are in!
+
+>> git branch <new branch name> // to add a new branch!
+
+>> git checkout <branch name> // to switch on a branch
+	
+>> git merge <branch name> // to merge branch
+	// checkout to master branch first, then merge the new branch to master branch
+
