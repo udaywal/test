@@ -44,7 +44,10 @@ git congig --global user.name "Vaibhav"
 >> git branch <new branch name> // to add a new branch!
 
 >> git checkout <branch name> // to switch on a branch
+<<<<<<< HEAD
 	
 >> git merge <branch name> // to merge branch
 	// checkout to master branch first, then merge the new branch to master branch
+=======
+>>>>>>> voonik-1
 
