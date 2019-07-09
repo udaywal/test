@@ -1,0 +1,29 @@
+// Configuration code - this shows who is work here
+
+git config --global user.email "vaibhavudaywal@gmail.com"
+git congig --global user.name "Vaibhav"
+
+// Because this time your project is a simple project
+// let's first make it git project
+>> git init // some hidden files appear in folder
+
+>> git status // to see untracked files
+
+// Now we want to push files to our staging area - indexed files
+// Staging area is the local user's area where all code appears before went to the github
+
+>> git add <filename> || git add -A // to add all files to staging area
+
+// commit - means snapshot of whole code
+// commit or screenshot has been taken when there are changes in code
+
+>> git commit -m <msg> // take screenshot of entire code when you change something
+
+// Now next step to host the code to central location which will be our repository
+
+// This command not send code to the repo rather it just link
+// at this step it will ask you for the password and user details
+>> git remote add origin <repo name> // it links our local projects to git repository
+
+// This command then push the code from local projects to linked repository
+>> git push -u origin master
