@@ -17,7 +17,7 @@ git congig --global user.name "Vaibhav"
 // commit - means snapshot of whole code
 // commit or screenshot has been taken when there are changes in code
 
->> git commit -m <msg> // take screenshot of entire code when you change something
+>> git commit -m <"msg"> // take screenshot of entire code when you change something
 
 // Now next step to host the code to central location which will be our repository
 
